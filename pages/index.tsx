@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
-import { useRef, useState, useLayoutEffect } from 'react'
+import { useRef, useState, useEffect, useLayoutEffect } from 'react'
 import { gsap } from 'gsap'
 import Link from 'next/link'
 
@@ -45,7 +45,7 @@ const Home: React.FC = () => {
   const abt = useRef<SVGTextElement | null>(null);
   const skl = useRef<SVGTextElement | null>(null);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     tl.current = gsap.timeline({ paused: true })
       .to(myElement.current, { duration: .5, x: "-10vw", autoAlpha: 1, ease: "bounce" })
       .to(yellowRect.current, { duration: .5, x: -100, ease: "bounce" }, "<")
@@ -59,11 +59,11 @@ const Home: React.FC = () => {
 
 
   }, [])
-  useLayoutEffect(() => {
+  useEffect(() => {
     state.show ? tl.current?.play() : tl.current?.reverse()
   }, [state.show])
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     tl2.current = gsap.timeline({ paused: true })
       .to(lrectOne.current, { duration: .5, y: 150, ease: "bounce" })
       .to(rectTwo.current, { duration: .5, x: 200, ease: "bounce" }, "<")
@@ -75,12 +75,12 @@ const Home: React.FC = () => {
 
   }, [])
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     state.show2 ? tl2.current?.play() : tl2.current?.reverse()
   }, [state.show2])
 
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     tl3.current = gsap.timeline({ paused: true })
       .to(lrectOne.current, { duration: .5, rotate: 50, ease: "bounce" })
       .to(rectTwo.current, { duration: .5, rotate: 90, ease: "bounce" }, "<")
@@ -92,11 +92,11 @@ const Home: React.FC = () => {
       .to(abt.current, { duration: .5, rotate: 2, y: 80, ease: "bounce" }, "<")
   }, [])
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     state.show3 ? tl3.current?.play() : tl3.current?.reverse()
   }, [state.show3])
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     gsap.from(lrectOne.current, { duration: 1, x: -400, ease: "back" })
     gsap.from(header.current, { duration: 1, y: -400, ease: "back" })
     gsap.from(title.current, { duration: 1, y: -400, ease: "back" })
