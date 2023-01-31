@@ -60,7 +60,7 @@ const Portfolio: React.FC<Props> = () => {
                 >
                 </div>
             </Link>
-            <Link href="https://youtu.be/8tLJGCeYkT4">
+            <Link href="">
                 <div ref={bx1} className={styles.box}>
                     <ReactPlayer url='https://youtu.be/8tLJGCeYkT4'
                         height="100%"
@@ -69,7 +69,7 @@ const Portfolio: React.FC<Props> = () => {
                     />
                 </div>
             </Link>
-            <Link href="https://youtu.be/8tLJGCeYkT4">
+            <Link href="">
                 <div ref={bx2} className={styles.box}>
                     <ReactPlayer url='https://youtu.be/u4tLqar2nw4'
                         height="100%"
