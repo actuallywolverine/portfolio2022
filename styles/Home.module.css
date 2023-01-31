@@ -185,7 +185,7 @@
 
   .main .name {
     writing-mode: horizontal-tb;
-    font-size: 6vh;
+    font-size: 9vh;
     margin-top: -10%;
 
   }
@@ -200,6 +200,7 @@
   .main .svgcontainer {
     width: 100vw;
     height: 85vh;
+    margin-top: -40%;
   }
 
   .header {
