@@ -110,43 +110,30 @@
 
 @media only screen and (max-width: 600px) {
 
-  .header {
-    font-size: 1vh;
-    gap: 2%
-  }
-
-  .main .svgcontainer {
-    width: 100vw;
-    height: 100vh;
+  .main .name {
+    writing-mode: horizontal-tb;
+    font-size: 9vh;
+    margin-top: -10%;
   }
 
   .main .t2 {
     writing-mode: horizontal-tb;
-    font-size: 4vh;
-    margin-top: -10%;
-  }
-
-  .main .name {
-    writing-mode: horizontal-tb;
     font-size: 6vh;
-  }
-
-  .main .me {
-    width: 60vw;
-    height: 30vh;
-    font-size: 5vw;
-    margin-right: -45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .main .texts {
-    width: 60vw;
-    font-size: 4vw;
-    margin-top: -60%;
+    margin-top: -2%;
     margin-left: 10%;
+  }
+
+  .main .svgcontainer {
+    width: 100vw;
+    height: 85vh;
+    margin-top: -30%;
+  }
+
+  .header {
+    font-size: 2vh;
+    padding: 2%;
+    margin-top: -8;
+
   }
 }
 
@@ -154,12 +141,12 @@
 
   .main .svgcontainer {
     height: 90vh;
+    margin-top: 0%;
   }
 
   .main .texts {
     margin-top: -50%;
     margin-right: -5%;
-
   }
 
   .main .me {
@@ -178,37 +165,6 @@
     margin-left: 75%;
     margin-top: -50%;
     width: 40vw;
-  }
-}
-
-@media only screen and (max-width: 1080px) {
-
-  .main .name {
-    writing-mode: horizontal-tb;
-    font-size: 9vh;
-    margin-top: -10%;
-
-  }
-
-  .main .t2 {
-    writing-mode: horizontal-tb;
-    font-size: 6vh;
-    margin-top: -8%;
-    margin-left: 10%;
-
-  }
-
-  .main .svgcontainer {
-    width: 100vw;
-    height: 85vh;
-    margin-top: -40%;
-  }
-
-  .header {
-    font-size: 2vh;
-    padding: 2%;
-    margin-top: -8;
-
   }
 }
 
