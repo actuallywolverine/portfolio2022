@@ -112,25 +112,33 @@
 
 @media only screen and (max-width: 600px) {
 
-  .header {
-    font-size: 1vh;
-    gap: 2%
-  }
+  .main .name {
+    writing-mode: horizontal-tb;
+    font-size: 9vh;
+    margin-top: -10%;
 
-  .main .svgcontainer {
-    width: 100vw;
-    height: 100vh;
   }
 
   .main .t2 {
     writing-mode: horizontal-tb;
-    font-size: 4vh;
-    margin-top: -10%;
+    font-size: 6vh;
+    margin-top: -8%;
+    margin-left: 10%;
+    padding: 5%;
+
   }
 
-  .main .name {
-    writing-mode: horizontal-tb;
-    font-size: 6vh;
+  .main .svgcontainer {
+    width: 100vw;
+    height: 85vh;
+    margin-top: -40%;
+  }
+
+  .header {
+    font-size: 2vh;
+    padding: 2%;
+    margin-top: -8;
+
   }
 
   .main .me {
@@ -165,7 +173,8 @@
   }
 
   .main .me {
-    font-size: 3vh;
+    font-size: 2.5vh;
+
   }
 }
 
@@ -182,38 +191,6 @@
     width: 40vw;
   }
 }
-
-@media only screen and (max-width: 1080px) {
-
-  .main .name {
-    writing-mode: horizontal-tb;
-    font-size: 9vh;
-    margin-top: -10%;
-
-  }
-
-  .main .t2 {
-    writing-mode: horizontal-tb;
-    font-size: 6vh;
-    margin-top: -8%;
-    margin-left: 10%;
-
-  }
-
-  .main .svgcontainer {
-    width: 100vw;
-    height: 85vh;
-    margin-top: -40%;
-  }
-
-  .header {
-    font-size: 2vh;
-    padding: 2%;
-    margin-top: -8;
-
-  }
-}
-
 
 /* Portfolio */
 
