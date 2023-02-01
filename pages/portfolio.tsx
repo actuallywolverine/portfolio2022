@@ -45,10 +45,10 @@ const Portfolio: React.FC<Props> = () => {
         <div className={styles.wrapper}>
 
             <h1 ref={sl} className={styles.sw}>Selected<br /> <span className={styles.sww}>Works</span></h1>
-            <svg ref={tri} className={styles.tri} width="100%" height="100%" viewBox="0 0 317 252" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg id="t1" ref={tri} className={styles.tri} width="100%" height="100%" viewBox="0 0 317 252" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M305.874 221.814L170.202 15.244C164.672 6.82477 152.328 6.82478 146.798 15.244L11.126 221.814C5.01148 231.124 11.6895 243.5 22.8278 243.5H294.172C305.31 243.5 311.989 231.124 305.874 221.814Z" fill="#44A1C3" stroke="black" strokeWidth="16" />
             </svg>
-            <svg ref={circ} className={styles.circ} width="100%" height="100%" viewBox="0 0 301 278" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg id="c1" ref={circ} className={styles.circ} width="100%" height="100%" viewBox="0 0 301 278" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M150.5 270C228.513 270 293 212.007 293 139C293 65.9927 228.513 8 150.5 8C72.4875 8 8 65.9927 8 139C8 212.007 72.4875 270 150.5 270Z" fill="#F15933" stroke="black" strokeWidth="16" />
             </svg>
             <Link href="https://weareisosceles.com/" target="_blank">

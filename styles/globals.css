@@ -28,7 +28,9 @@ li {
 
 #y1:hover,
 #y2:hover,
-#y3:hover {
+#y3:hover,
+#t1,
+#c1 {
   fill: #FC9400;
   stroke-width: 20;
   cursor: pointer;
