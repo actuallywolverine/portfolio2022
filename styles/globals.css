@@ -28,9 +28,7 @@ li {
 
 #y1:hover,
 #y2:hover,
-#y3:hover,
-#t1,
-#c1 {
+#y3:hover {
   fill: #FC9400;
   stroke-width: 20;
   cursor: pointer;
@@ -41,7 +39,9 @@ li {
 #rr:hover,
 #bt:hover,
 #lbc:hover,
-#rt:hover {
+#rt:hover,
+#c1:hover,
+#t1:hover {
   animation-name: wobble-horizontal;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
