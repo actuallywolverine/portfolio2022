@@ -123,7 +123,7 @@ const Home: React.FC = () => {
       </Head>
       <header>
         <ul ref={header} className={styles.header}>
-          <li><Link href="https://drive.google.com/file/d/1XbOcrxUwIygcED-hGiPWOLjElLdkMQrd/view?usp=sharing" target="_blank">Resume</Link></li>
+          <li><Link href="https://drive.google.com/file/d/1505b1np6pk5DZYGBW2nk7oNoDJDDNQRO/view?usp=sharing" target="_blank">Resume</Link></li>
           <li><Link href="/portfolio">Portfolio</Link></li>
           <li><Link href="mailto:justinleeirizarry@gmail.com">Contact</Link></li>
         </ul>
