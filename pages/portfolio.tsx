@@ -39,7 +39,7 @@ const Portfolio: React.FC<Props> = () => {
         </Head >
         <header ref={headr} className={styles.header}>
             <Link href="/">Home</Link>
-            <Link href="https://github.com/actuallywolverine">Github</Link>
+            <Link href="https://github.com/justinleeirizarry">Github</Link>
             <Link href="https://codepen.io/actuallywolverine">Codepen</Link>
         </header>
         <div className={styles.wrapper}>
