@@ -167,8 +167,7 @@ const Home: React.FC = () => {
           <li>NPM</li>
           <li>Illustrator</li>
         </ul>
-        <div ref={newElement} className={styles.me}><p>About
-As a highly skilled and experienced developer, I am deeply passionate about the intersection of design and development. Continuously pushing the boundaries of my expertise, I am committed to honing my skills and staying ahead of the curve with the latest front-end technologies.
+        <div ref={newElement} className={styles.me}><p>As a highly skilled and experienced developer, I am deeply passionate about the intersection of design and development. Continuously pushing the boundaries of my expertise, I am committed to honing my skills and staying ahead of the curve with the latest front-end technologies.</p>
         </div>
       </main>
     </>
