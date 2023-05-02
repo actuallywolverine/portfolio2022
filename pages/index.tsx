@@ -167,10 +167,8 @@ const Home: React.FC = () => {
           <li>NPM</li>
           <li>Illustrator</li>
         </ul>
-        <div ref={newElement} className={styles.me}><p>Self-taught developer with a passion for the intersection between design
-          and development. I am always challenging myself to hone my skills and explore cutting-edge
-          frontend technologies with the vision to create memorable online user
-          experiences.</p>
+        <div ref={newElement} className={styles.me}><p>About
+As a highly skilled and experienced developer, I am deeply passionate about the intersection of design and development. Continuously pushing the boundaries of my expertise, I am committed to honing my skills and staying ahead of the curve with the latest front-end technologies.
         </div>
       </main>
     </>
