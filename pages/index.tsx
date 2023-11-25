@@ -123,14 +123,14 @@ const Home: React.FC = () => {
       </Head>
       <header>
         <ul ref={header} className={styles.header}>
-          <li><Link href="https://drive.google.com/file/d/1fa2wi8qd7XrKvjrNMQLXYh17qsbIn603/view?usp=sharing" target="_blank">Resume</Link></li>
+          <li><Link href="https://drive.google.com/file/d/1KOIoNR8cAQS0Q_gZZBIDb0ZQOUH6WTAT/view?usp=sharing" target="_blank">Resume</Link></li>
           <li><Link href="/portfolio">Portfolio</Link></li>
           <li><Link href="mailto:justinleeirizarry@gmail.com">Contact</Link></li>
         </ul>
       </header>
       <main className={styles.main}>
         <h1 ref={title} className={styles.t2}>
-          <span className={styles.name}>Justin Irizarry <br /></span>Front-End Developer
+          <span className={styles.name}>Justin Irizarry <br /></span>Fullstack Developer
         </h1>
         <div className={styles.svgcontainer}>
           <svg viewBox="-50 0 1000 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -164,8 +164,8 @@ const Home: React.FC = () => {
           <li>C</li>
           <li>SQL</li>
           <li>GSAP</li>
-          <li>NPM</li>
-          <li>Illustrator</li>
+          <li>Node</li>
+          <li>Django</li>
         </ul>
         <div ref={newElement} className={styles.me}><p>As a highly skilled and experienced developer, I am deeply passionate about the intersection of design and development. Continuously pushing the boundaries of my expertise, I am committed to honing my skills and staying ahead of the curve with the latest front-end technologies.</p>
         </div>
